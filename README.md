@@ -2,4 +2,4 @@
 
 ## Github:   https://brintzamiles.github.io/FullStackDevPortfolio/
 
-# Totally reformatted original portfolio
+### Totally reformatted original portfolio
