@@ -199,9 +199,8 @@ header {
 }
 
 
-.connect-none-rounded {
-  width: 200px;
-  height: 200px;
+.connect-none-rounded, .card-img-top {
+  
   border: blueviolet;
   opacity: 0.8;
   border-radius: 50px 50px 50px 20px;
