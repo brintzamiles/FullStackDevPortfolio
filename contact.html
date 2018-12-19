@@ -7,6 +7,8 @@
   <!-- Latest compiled and minified CSS and BOOTSTRAP-->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
     crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=BioRhyme+Expanded%7CDelius+Unicase%7CElsie+Swash+Caps%7CFontdiner+Swanky%7CMichroma%7CMountains+of+Christmas%7COrbitron%7CPermanent+Marker%7CRevalia%7CSpecial+Elite%7CSyncopate"
+    rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
@@ -18,7 +20,7 @@
         <div class="container-fluid">
           <!-- Brand and toggle get grouped for better mobile display -->
           <div class="navbar-header">
-            <a class="navbar-brand" href="#">Brintza Miles</a>
+            <a class="navbar-brand" href="#"></a>
           </div>
 
           <!-- Collect the nav links, forms, and other content for toggling -->
@@ -35,6 +37,31 @@
 
   </header>
 
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+    <a href="index.html">About</a>
+    <a href="portfolio.html">Portfolio</a>
+    <a href="contact.html">Contact</a>
+    <div class="thumbnail">
+      <img class="fullstack" src="assets/images/brintza1.jpg" alt="Brintza">
+    </div>
+
+    <p><span class="reserved">let</span></span> <span class='object-item'>brintzaMiles</span> = <span class="bracket">{</span>
+    </p>
+    <p>creative: <span class='value'>true,</span></p>
+    <p>innovative: <span class='value'>true,</span></p>
+    <p>tenacious: <span class="value">true,</span></p>
+    <p>teamPlayer: <span class="value">true,</span></p>
+    <p>criticalThinker: <span class='value'>true,</span></p>
+    <p>detailOriented: <span class='value'>true,</span></p>
+
+    <p><span class="bracket">}</span></p>
+    <br>
+  </div>
+  <div id="main">
+
+      <span class="BrintzaNav" onclick="openNav()">&#9776; BRINTZA MILES</span>
 
 
   <div class="container">
@@ -93,16 +120,19 @@
     </div>
   </div>
 
+  <script>
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+      document.getElementById("main").style.marginLeft = "250px";
+    }
+
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+      document.getElementById("main").style.marginLeft = "0";
+    }
+  </script>
 
 
-
-
-
-
-
-
-
-  
 </body>
 
 </html>
